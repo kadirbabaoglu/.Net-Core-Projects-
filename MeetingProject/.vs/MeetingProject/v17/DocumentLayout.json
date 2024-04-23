@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\views\\meeting\\toplantiform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\views\\meeting\\toplantiform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\models\\meetingdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\models\\meetingdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|c:\\users\\admin\\desktop\\asp.net\\.net-core-projects-\\meetingproject\\meetingproject\\views\\meeting\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EC74E1F-5D01-422E-AF7D-6D935BEC1052}|MeetingProject\\MeetingProject.csproj|solutionrelative:meetingproject\\views\\meeting\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MeetingProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MeetingProject\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:25:38.146Z",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MeetingProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MeetingProject\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T16:56:15.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Program.cs",
-              "RelativeDocumentMoniker": "MeetingProject\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Program.cs",
-              "RelativeToolTip": "MeetingProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:22:07.745Z",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MeetingProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MeetingProject\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T16:13:02.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MeetingProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MeetingProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:11:20.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeetingDB.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Models\\MeetingDB.cs",
+              "RelativeDocumentMoniker": "MeetingProject\\Models\\MeetingDB.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Models\\MeetingDB.cs",
+              "RelativeToolTip": "MeetingProject\\Models\\MeetingDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:04:17.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\Meeting\\List.cshtml",
+              "RelativeDocumentMoniker": "MeetingProject\\Views\\Meeting\\List.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\Meeting\\List.cshtml",
+              "RelativeToolTip": "MeetingProject\\Views\\Meeting\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T15:28:29.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MeetingProject\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MeetingProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T14:20:28.914Z",
+              "WhenOpened": "2024-04-23T15:26:50.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToplantiForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\Meeting\\ToplantiForm.cshtml",
+              "RelativeDocumentMoniker": "MeetingProject\\Views\\Meeting\\ToplantiForm.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Views\\Meeting\\ToplantiForm.cshtml",
+              "RelativeToolTip": "MeetingProject\\Views\\Meeting\\ToplantiForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T15:25:48.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeetingController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Controllers\\MeetingController.cs",
+              "RelativeDocumentMoniker": "MeetingProject\\Controllers\\MeetingController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\asp.net\\.Net-Core-Projects-\\MeetingProject\\MeetingProject\\Controllers\\MeetingController.cs",
+              "RelativeToolTip": "MeetingProject\\Controllers\\MeetingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:20:21.93Z",
               "EditorCaption": ""
             }
           ]

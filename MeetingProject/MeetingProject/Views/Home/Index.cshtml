@@ -1,8 +1,19 @@
-﻿@{
+﻿@using MeetingProject.Models
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Hoş Geldiniz</h1>
+    <p>Toplantıya katılmak için kayıt yaptırabliirisiniz.</p>
+    <a class="btn btn-sm btn-outline-success" href="meeting/ToplantiForm">Kayıt Yaptır</a>
+</div>
+
+<div class="card mt-3">
+    <ul class="list-group">
+        <li class="list-group-item">@Model.Toplanti_yeri</li>
+        <li class="list-group-item">@Model.KatilimciSayisi</li>
+        <li class="list-group-item">@Model.Date</li>
+    </ul>
+
 </div>

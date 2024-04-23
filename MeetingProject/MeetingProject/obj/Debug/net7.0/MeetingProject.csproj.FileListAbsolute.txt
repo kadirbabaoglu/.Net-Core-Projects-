@@ -28,3 +28,4 @@ C:\Users\admin\Desktop\asp.net\.Net-Core-Projects-\MeetingProject\MeetingProject
 C:\Users\admin\Desktop\asp.net\.Net-Core-Projects-\MeetingProject\MeetingProject\obj\Debug\net7.0\MeetingProject.pdb
 C:\Users\admin\Desktop\asp.net\.Net-Core-Projects-\MeetingProject\MeetingProject\obj\Debug\net7.0\MeetingProject.genruntimeconfig.cache
 C:\Users\admin\Desktop\asp.net\.Net-Core-Projects-\MeetingProject\MeetingProject\obj\Debug\net7.0\ref\MeetingProject.dll
+C:\Users\admin\Desktop\asp.net\.Net-Core-Projects-\MeetingProject\MeetingProject\obj\Debug\net7.0\MeetingProject.sourcelink.json
