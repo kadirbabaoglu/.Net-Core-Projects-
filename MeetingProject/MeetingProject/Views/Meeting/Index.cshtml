@@ -1,7 +1,21 @@
-﻿
+﻿@model UserRepostory
+
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><title></title></head>
-    <body><h1>
-        meeting
-    </h1></body>
+    <body>
+     
+    <h1>Katılım Durumu </h1>
+
+    @if(Model.Status == true)
+    {
+        <p>Merhaba @Model.Name , sizinle birlikte toplantıya @ViewBag.KatilimSayisi kişi katılacaktır.</p>
+
+        <a class="btn btn-outline-success btn-sm mt-3" href="/meeting/List">Katılımıcıları Görüntüle</a>
+    }
+    else
+    {
+        <p>@Model.Name toplantıya katılmıyor.</p>
+    }
+
+</body>
 </html>

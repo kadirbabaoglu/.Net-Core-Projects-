@@ -1,0 +1,18 @@
+﻿@model UserRepostory
+@{
+    var UserStatus = Model.Status == true ? "Evet Geliyor" : "Hayır Gelmiyor";
+}
+
+<h1>Katılım Durumu </h1>
+
+<div class="card mt-3">
+    <ul class="list-group">
+        <li class="list-group-item"><p> Adı : </p>@Model.Name</li>
+        <li class="list-group-item"><p> Telefon : </p>@Model.Phone</li>
+        <li class="list-group-item"><p> Email : </p>@Model.Email</li>
+        <li class="list-group-item"><p> Durumu : </p>@UserStatus</li>
+    </ul>
+
+</div>
+
+

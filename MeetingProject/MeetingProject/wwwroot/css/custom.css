@@ -1,0 +1,7 @@
+.validation-summary-errors{
+    color : brown;
+}
+
+.input-validation-error{
+   border : 1px solid brown;
+}

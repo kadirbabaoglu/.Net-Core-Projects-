@@ -1,4 +1,6 @@
-﻿<h3>Katılımıcı Listesi</h3>
+﻿@model List<UserRepostory>
+
+<h3>Katılımıcı Listesi</h3>
 <table class="table">
     <thead>
         <tr>
@@ -9,11 +11,18 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>Deneme</td>
-            <td>deneme@deneme.com</td>
-            <td>Aktif</td>
-            <td><a href="">Detay Gör</a></td>
+        @foreach(var item in Model)
+        {
+            var statusControl = item.Status == true ? "Evet Geliyor" : "Hayır Gelmiyor";
+            var statusClass = item.Status == true ? "table-success" : "table-danger";
+
+        <tr class="@statusClass">
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@statusControl</td>
+            <td><a href="/meeting/Detail/@item.Id">Detay Gör</a></td>
         </tr>
+        }
+
     </tbody>
 </table>

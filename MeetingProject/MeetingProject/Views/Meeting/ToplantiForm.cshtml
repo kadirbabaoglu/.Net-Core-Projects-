@@ -1,5 +1,33 @@
-﻿<h3>Toplantı Formu</h3>
-<form action="">
+﻿@model UserRepostory
 
-    <button class="btn btn-sm btn-outline-success" type="submit">Kaydet</button>
+<h3>Toplantı Formu</h3>
+
+
+<form action="SaveForm" method="Post" novalidate>
+    <div asp-validation-summary="All"> </div>
+    <div class="form-group mt-3">
+        <label asp-for="Name" class="text-left">Ad Soyad</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Adınız ve soyadınız..!" >
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="Phone" class="text-left">Telefon</label>
+        <input type="text" class="form-control" asp-for="Phone" placeholder="Telefon numaranız..!" >
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="Email" class="text-left">E-Maill</label>
+        <input type="text" class="form-control" asp-for="Email" placeholder="Email adresiniz..!" >
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="Status" class="text-left">Katılım Durumu</label>
+        <select class="form-control" asp-for="Status">
+            <option value="">Seçiniz</option>
+            <option value="true">Evet</option>
+            <option value="false">Hayır</option>
+        </select>
+    </div>
+
+    <button class="btn btn-sm btn-outline-success mt-3" type="submit">Kaydet</button>
 </form>

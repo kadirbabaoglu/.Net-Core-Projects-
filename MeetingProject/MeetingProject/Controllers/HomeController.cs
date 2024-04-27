@@ -23,11 +23,7 @@ namespace MeetingProject.Controllers
             return View(MeetingDB);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        
+       
+       
     }
 }
