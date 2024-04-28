@@ -23,6 +23,11 @@
             }
         }
 
+        public static void CreateProduct(Products products)
+        {
+            _products.Add(products);
+        }
+
         public static List<Categories> Categories
         {
             get
