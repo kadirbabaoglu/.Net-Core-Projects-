@@ -6,6 +6,7 @@
 <form asp-controller="Home" asp-action="Edit" method="post" novalidate enctype="multipart/form-data">
     
         <div asp-validation-summary="All"></div>
+        <input type="hidden" asp-for="ProductId" />
     <div class="mb-3">
         <label asp-for="Name" class="form-label">Ürün Adı</label>
         <input asp-for="Name" class="form-control" />
@@ -14,6 +15,7 @@
 
     <div class="mb-3">
         <img src="~/img/@Model.Image"  style="width : 100px"/>
+        <input type="type" type="hidden" asp-for="Image" />
     </div>
 
     <div class="mb-3">

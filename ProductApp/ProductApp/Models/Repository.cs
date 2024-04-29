@@ -28,6 +28,30 @@
             _products.Add(products);
         }
 
+        public static void UpdateProduct(Products products)
+        {
+            var update = _products.FirstOrDefault(i => i.ProductId == products.ProductId);
+            if (update != null) 
+            { 
+                update.Name = products.Name;
+                update.Description = products.Description;
+                update.Image = products.Image;
+                update.Price = products.Price;
+                update.IsActive = products.IsActive;
+                update.CategoryId = products.CategoryId;
+
+            }
+        }
+
+        public static void DeleteProduct(Products products)
+        {
+            var delete = _products.FirstOrDefault(p => p.ProductId == products.ProductId);
+            if (delete != null)
+            {
+                _products.Remove(delete);
+            }
+        }
+
         public static List<Categories> Categories
         {
             get

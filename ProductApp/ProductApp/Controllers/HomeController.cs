@@ -48,7 +48,7 @@ namespace ProductApp.Controllers
             {
                 if(!allowedImageType.Contains(extention))
                 {
-                    ModelState.AddModelError("", "Lütfen geçerli bir e posta adresi giriniz..!");
+                    ModelState.AddModelError("", "Lütfen geçerli bir resim türü seçiniz!");
                 }  
             }
 
@@ -89,5 +89,64 @@ namespace ProductApp.Controllers
             return View(data);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Edit(int Id , Products model , IFormFile? imageFile)
+        {
+            if(Id != model.ProductId) 
+            {
+                return NotFound();  
+            }
+
+            if(ModelState.IsValid)
+            {
+                if (imageFile != null)
+                {
+                    var allowedImageType = new[] { ".jpg", ".jpeg", ".png" };
+                    var extention = Path.GetExtension(imageFile.FileName).ToLower();
+                    var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extention}");
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
+
+                    if (!allowedImageType.Contains(extention))
+                    {
+                        ModelState.AddModelError("", "Lütfen geçerli bir resim türü seçiniz..!");
+                    }
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await imageFile!.CopyToAsync(stream);
+
+                    }
+
+                    model.Image = randomFileName;
+
+                }
+
+                Repository.UpdateProduct(model);
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.AllCategories = new SelectList(Repository.Categories, "CategoryId", "CategoryName");
+            return View(model);
+
+        }
+
+
+        public IActionResult Delete(int? Id)
+        {
+            if (Id == null) 
+            {
+                return NotFound();
+            }
+
+            var deleteItem = Repository.Products.FirstOrDefault(i => i.ProductId == Id);
+            if(deleteItem == null)
+            {
+                return NotFound();
+            }
+
+            Repository.DeleteProduct(deleteItem);
+            return RedirectToAction("Index");
+
+        }
     }
 }
