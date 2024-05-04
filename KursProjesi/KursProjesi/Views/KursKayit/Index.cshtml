@@ -1,0 +1,35 @@
+﻿@model IEnumerable<KursKayit>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Kurs Kayıt</h1>
+<hr />
+<a class="btn btn-outline-success mb-3" href="/KursKayit/Create">Yeni Öğrenci Ekle</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(n => n.KayitId)</th>
+            <th>@Html.DisplayNameFor(n => n.Ogrenci.AdSoyad)</th>
+            <th>@Html.DisplayNameFor(n => n.Kurs.Baslik)</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.OgrenciId</td>
+                <td>@item.Ogrenci.AdSoyad</td>
+                <td>@item.Kurs.Baslik</td>
+                <td>
+                    <a asp-controller="Ogrenci" asp-action="Edit" asp-route-id="@item.OgrenciId" class="btn btn-primary">Güncelle</a>
+                    <a asp-controller="Ogrenci" asp-action="Delete" asp-route-id="@item.OgrenciId" class="btn btn-danger">Sil</a>
+                </td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>

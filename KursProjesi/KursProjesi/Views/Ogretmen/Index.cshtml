@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Ogretmen>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Ögrenci Listesi</h3>
+<hr />
+<a class="btn btn-outline-success mb-3" href="/Ogretmen/Create">Yeni Öğrenci Ekle</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(n => n.OgretmenID)</th>
+            <th>@Html.DisplayNameFor(n => n.Adi)</th>
+            <th>@Html.DisplayNameFor(n => n.Soyadi)</th>
+            <th>@Html.DisplayNameFor(n => n.Eposta)</th>
+            <th>@Html.DisplayNameFor(n => n.Telefon)</th>
+            <th>@Html.DisplayNameFor(n => n.BaslamaTarihi)</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.OgretmenID</td>
+                <td>@item.Adi</td>
+                <td>@item.Soyadi</td>
+                <td>@item.Eposta</td>
+                <td>@item.Telefon</td>
+                <td>@item.BaslamaTarihi</td>
+                <td>
+                    <a asp-controller="Ogretmen" asp-action="Edit" asp-route-id="@item.OgretmenID" class="btn btn-primary">Güncelle</a>
+                    <a asp-controller="Ogretmen" asp-action="Delete" asp-route-id="@item.OgretmenID" class="btn btn-danger">Sil</a>
+                </td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>

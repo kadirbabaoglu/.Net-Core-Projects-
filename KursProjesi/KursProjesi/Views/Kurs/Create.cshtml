@@ -1,0 +1,19 @@
+﻿@model Kurs
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Kurs Kayıt Formu</h3>
+
+<form asp-controller="Kurs" asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label asp-for="Baslik" class="form-label">Kurs Adı</label>
+        <input asp-for="Baslik" class="form-control" />
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-outline-primary">Kaydet</button>
+
+</form>

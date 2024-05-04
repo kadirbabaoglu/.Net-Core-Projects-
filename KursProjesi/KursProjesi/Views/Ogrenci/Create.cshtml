@@ -1,0 +1,32 @@
+﻿@model Ogrenci
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Öğrenci Kayıt Formu</h3>
+
+<form asp-controller="Ogrenci" asp-action="Create" method="post">
+    
+    <div class="mb-3">
+       <label asp-for="OgrenciAdi" class="form-label">Öğrenci Adı</label>
+       <input asp-for="OgrenciAdi" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OgrenciSoyadi" class="form-label">Öğrenci Soyadı</label>
+        <input asp-for="OgrenciSoyadi" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Eposta" class="form-label">Eposta Adresi</label>
+        <input asp-for="Eposta" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Telefon" class="form-label">Telefon Numarası</label>
+        <input asp-for="Telefon" class="form-control" />
+    </div>
+        
+    <button type="submit" class="btn btn-outline-primary">Kaydet</button>
+
+</form>
